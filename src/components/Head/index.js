@@ -32,8 +32,8 @@ const Head = ()=>{
                     </div>
                     <div className='d-none d-lg-flex justify-content-between'>
                         <div className='d-flex gap-4'>
-                            <Link  className='head-text' to="/joby-app/">Home</Link>
-                            <Link  className='head-text' to="/joby-app/jobs">Jobs</Link>
+                            <Link  className='head-text' to="/">Home</Link>
+                            <Link  className='head-text' to="/jobs">Jobs</Link>
                         </div>
                     </div>
                     <button className='logout-button d-none d-lg-flex' onClick={logoutFunction}>
