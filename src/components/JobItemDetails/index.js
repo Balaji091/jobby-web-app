@@ -168,7 +168,7 @@ const JobItemDetails = (props)=>{
     };
     const onJobClick = (id)=>{
         window.scrollTo(0, 0)
-        navigate(`/joby-app/jobs/${id}`)
+        navigate(`/jobs/${id}`)
     }
     const navigate = useNavigate()
     const similarJobsComponent = (props,id)=>{

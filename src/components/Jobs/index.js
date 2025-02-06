@@ -235,7 +235,7 @@ const Jobs = ()=>{
         )
     }
     const onJobClick = (id)=>{
-        navigate(`/joby-app/jobs/${id}`)
+        navigate(`/jobs/${id}`)
     }
     const onSearchClick = ()=>{
         setSearchClickValue(searchVal)

@@ -10,14 +10,14 @@ import Cookies from 'js-cookie';
 const Head = ()=>{
         const navigate = useNavigate();
         const toJobs = ()=>{
-            navigate("/joby-app/jobs")
+            navigate("/jobs")
         }
         const toHome = ()=>{
-            navigate('/joby-app/')
+            navigate('/')
         }
         const logoutFunction = ()=>{
             Cookies.remove('login_token')
-            navigate('/joby-app/login')
+            navigate('/login')
         }
         return(
             <div className='col-12 head d-flex justify-content-between align-items-center'>

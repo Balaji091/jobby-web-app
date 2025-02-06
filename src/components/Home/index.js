@@ -7,7 +7,7 @@ const Home =()=>{
     const [username, setUsername] = useState('');
     const navigate = useNavigate()
     const toJobs = ()=>{
-        navigate("/joby-app/jobs")
+        navigate("/jobs")
     }
     const bodyComonent = ()=>{
         return(
